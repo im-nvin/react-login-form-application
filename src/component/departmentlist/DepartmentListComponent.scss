@@ -1,0 +1,27 @@
+/* DepartmentListComponent.scss */
+
+.department-list {
+  // ... (previous styles)
+
+  .department-header {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    .expand-icon {
+      margin-right: 5px;
+    }
+
+    .department-name {
+      display: flex;
+      align-items: center;
+
+      .check-icon {
+        margin-right: 5px;
+        color: #4caf50; 
+      }
+    }
+  }
+
+ 
+}
